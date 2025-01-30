@@ -25,6 +25,16 @@ starterGui:SetCore("SendNotification", {
 	Duration = 3
 })
 
+wait(2)
+
+starterGui:SetCore("SendNotification", {
+	Title = "The executor you use is not compatible with this script, brother, this script was created years ago, it is old",
+	Text = "use krnl.",
+	Duration = 3
+})
+
+wait(100000000000000000000000000)
+
 local screenGui = Instance.new("ScreenGui")
 screenGui.Name = "MegaEmoteGui"
 screenGui.Parent = playerGui
